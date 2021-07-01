@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>qora.dev</title>
+</head>
+<body>
+<header>
+	<a href="{% url 'home' %}">Bosh sahifa</a>
+	<a href="{% url	'about' %}">Saytimiz haqida</a>
+	<a href="{% url	'contact' %}">Biz bilan aloqa</a>
+	<a href="{% url	'reklama' %}">Reklama berish</a>
+
+	{% block content %}
+	{% endblock content %}
+</header>
+</body>
+</html>
